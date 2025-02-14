@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8D9F1; /* Fondo lavanda */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.container h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4B387E; /* Un tono más oscuro para resaltar */
+}
+.container h3 {
+    
+    color: #4B387E; /* Un tono más oscuro para resaltar */
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #5A4D8A;
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 200px;
+    border-radius: 12px;
+    border: 4px solid #FFFFFF; /* Bordes suaves en blanco */
+    padding: 8px;
+}
+
+.container .btn {
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #6C4F96;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.btn a:hover {
+    background-color: #4B387E;
+}
+
+.tenor-gif-embed {
+    font-size: 0 !important;
+}
